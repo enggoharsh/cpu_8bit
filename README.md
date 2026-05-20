@@ -47,7 +47,7 @@ Internal signals observed:
 - Register contents
 - Zero flag
 
-# 🏗️ ASIC Backend Flow (QFlow)
+# ASIC Backend Flow (QFlow)
 
 The verified RTL design was taken through a complete ASIC backend flow using QFlow:
 

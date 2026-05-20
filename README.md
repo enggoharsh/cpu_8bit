@@ -36,7 +36,7 @@ Core modules:
 - Functional correctness verified using test programs
 - Instruction execution and control flow validated
 
-* FPGA Validation *
+ FPGA Validation 
 - Implemented on PYNQ-Z2 FPGA
 - Verified using:
 - On-board and external LEDs (2.5 mm LEDs)

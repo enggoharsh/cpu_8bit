@@ -5,7 +5,7 @@ This repository contains the complete design and implementation of a SAP-2 based
 
 The project includes functional verification via simulation and FPGA, followed by physical design and layout generation using the QFlow ASIC toolchain.
 
-# 📌 Project Overview
+# Project Overview
 
 - Architecture: SAP-2 based 8-bit single-cycle CPU
 - Design Language: Verilog HDL
@@ -21,7 +21,7 @@ This project demonstrates an end-to-end digital design workflow, starting from R
 
 Custom instruction set (ALU, Load/Store, Branch)
 Core modules:
--Program Counter (PC)
+- Program Counter (PC)
 - Instruction Memory
 - Register File (R0–R3)
 - Arithmetic Logic Unit (ADD, SUB, AND, OR)
@@ -36,7 +36,7 @@ Core modules:
 - Functional correctness verified using test programs
 - Instruction execution and control flow validated
 
-✔ FPGA Validation
+* FPGA Validation *
 - Implemented on PYNQ-Z2 FPGA
 - Verified using:
 - On-board and external LEDs (2.5 mm LEDs)

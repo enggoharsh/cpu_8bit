@@ -1,15 +1,20 @@
-﻿ # cpu_8bit
+
  # 🧠 SAP-2 Based CPU: RTL to ASIC Implementation
 
 This repository contains the complete design and implementation of a SAP-2 based 8-bit CPU, developed using Verilog HDL and taken through the entire RTL to ASIC design flow.
+
 The project includes functional verification via simulation and FPGA, followed by physical design and layout generation using the QFlow ASIC toolchain.
 
 # 📌 Project Overview
 
 Architecture: SAP-2 based 8-bit single-cycle CPU
+
 Design Language: Verilog HDL
+
 Verification Platforms: Simulation + FPGA (PYNQ-Z2)
+
 ASIC Backend Flow: QFlow (open-source)
+
 Final Output: DRC/LVS-clean ASIC layout
 
 This project demonstrates an end-to-end digital design workflow, starting from RTL design and concluding with a fabrication-ready layout.

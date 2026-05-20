@@ -1,5 +1,5 @@
 
- # 🧠 SAP-2 Based CPU: RTL to ASIC Implementation
+ #  SAP-2 Based CPU: RTL to ASIC Implementation
 
 This repository contains the complete design and implementation of a SAP-2 based 8-bit CPU, developed using Verilog HDL and taken through the entire RTL to ASIC design flow.
 
@@ -19,18 +19,25 @@ Final Output: DRC/LVS-clean ASIC layout
 
 This project demonstrates an end-to-end digital design workflow, starting from RTL design and concluding with a fabrication-ready layout.
 
-# ⚙️ CPU Features
+#  CPU Features
 
 8-bit single-cycle processor
 
 Custom instruction set (ALU, Load/Store, Branch)
 Core modules:
+
 Program Counter (PC)
-Instruction Memory
-Register File (R0–R3)
+
+- Instruction Memory
+
+- Register File (R0–R3)
+
 Arithmetic Logic Unit (ADD, SUB, AND, OR)
+
 Data Memory
+
 Control Unit
+
 Zero flag–based conditional branching
 
 # Designed for both FPGA and ASIC targets
